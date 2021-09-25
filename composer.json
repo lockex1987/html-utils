@@ -1,0 +1,35 @@
+{
+    "name": "lockex1987/html-utils",
+    "description": "Some utility functions with HTML format (purify, clean, remove empty)",
+    "type": "library",
+    "keywords": [
+        "html",
+        "purify",
+        "clean",
+        "remove empty"
+    ],
+    "homepage": "https://github.com/lockex1987/html-utils",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lockex1987",
+            "email": "lockex1987@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lockex1987\\Html\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Lockex1987\\Html\\": "tests"
+        }
+    },
+    "require": {
+        "php":">=8.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
